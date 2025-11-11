@@ -42,10 +42,25 @@ terraform.rc
 API_users.txt
 
 # Ignore sensitive JSON exports (uncomment to ignore all .json files)
-# *.json
+*.json
 
 # Ignore keyvault export file
 kv.json
 
 *.tfvars
 */*.tfvars
+
+
+
+############
+
+# .gitignore
+*.tfvars
+*.json
+*.zip
+*.pem
+*.key
+*.env
+.terraform/
+terraform.tfstate*
+
